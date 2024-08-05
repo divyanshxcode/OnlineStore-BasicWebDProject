@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- HEAD  -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- imported fonts from google -->
+  <!-- Chakra Petch -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+  <!-- Goldman -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Goldman&display=swap" rel="stylesheet">
+    <!-- Orbitron -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- Jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Maple - India</title>
+</head>
+  <body id="mobilepage">
+
+    <!-- NAVIGATION BAR -->
+
+    <nav>
+      <a class="navbarbuttons" class="homsup" href="landing_page.html" ><img class="navicons"
+          src="maple.svg" alt="phone icon">&nbspHome</a>
+      <a class="navbarbuttons" href="buy_page_phone.html" id="targetpage"><img class="navicons" src="smartphone.svg"
+          alt="phone icon">&nbspMobile</a>
+      <a class="navbarbuttons" href="buy_page_laptop.html"><img class="navicons" src="laptop.svg"
+          alt="phone icon">&nbspLaptop</a>
+      <a class="navbarbuttons" class="sup" href="support.html" id="support"><img class="navicons" src="phone.svg"
+          alt="phone icon">&nbspSupport</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="pageheadline">PHONE 15. The Best EVER.</div>
+
+    <br>
+    <br>
+
+      <div class="mobilelaptoppagetable">
+
+        <!-- Image on the left -->
+
+        <table>
+          <tr>
+            <td><img src="phone_front.png" alt="phone front view" width="600"></td>
+        </tr>
+        </table>
+
+        <!-- Form on the right -->
+
+      <form>
+      <table class="buyform">
+        <tr>
+            <td colspan="2" align="center" id="buyformheadline">Place Order Here</td>
+        </tr>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input class="buyformbuttons" type="text" id="name" name="name" placeholder="Full Name"></td>
+        </tr>
+        <br>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input class="buyformbuttons" type="email" id="email" name="email" placeholder="Your Email"></td>
+        </tr>
+        <tr>
+          <td>Phone No.</td>
+          <td><input class="buyformbuttons" type="tel" placeholder="Your Mobile No."></td>
+      </tr>
+      <tr>
+        <td>Select Model</td>
+        <td>
+          <input type="radio" class="radiobuttons" id="phone15" name="Phone 15" value="Phone15">
+          <label id="optionsideform"  class="radiolabel"  for="phone15">Phone 15</label>
+          <br>
+          <input type="radio" class="radiobuttons" id="pro15" name="Pro 15" value="Pro15">
+          <label for="pro15" class="radiolabel" id="optionsideform">Phone 15 Pro</label>
+          <br>
+        </td>
+
+        <tr>
+            <td>Optional Upgrades</td>
+            <td>
+                <input type="checkbox" value="ram">
+                <label id="optionsideform" for="ram">8GB RAM (+₹5000)</label><br>
+                <input type="checkbox" value="storage">
+                <label  id="optionsideform" for="storage">256GB Storage (+₹2000)</label><br>
+                <input type="checkbox" value="charger">
+                <label  id="optionsideform" for="charger">120w charging (+₹3500)</label><br>
+            </td>
+        </tr>
+      <tr>
+          <td>Choose Delivery</td>
+          <td>
+              <select id="dropdown">
+                  <option value="under18">Normal (7-10 days) - ₹100</option>
+                  <option value="18to30">Fast (5-6 days) - ₹450</option>
+                  <option value="31to50">Express (within 2 days) - ₹970</option>
+              </select>
+          </td>
+      </tr>
+        <tr>
+          <td >
+              <input class="lastrow" type="submit" value="Place Order">
+              <input class="lastrow" type="reset" value="Add to cart">
+              
+          </td>
+      </tr>
+    </table>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-content">
+          <div class="footer-section about">
+              <h3>About Us</h3>
+              <p>We are Maple - India, your one-stop solution for the best gadgets. Explore our range of mobile phones and laptops.</p>
+          </div>
+          <div class="footer-section links">
+              <h3>Other Pages</h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Mobile Phones</a></li>
+                  <li><a href="#">Laptops</a></li>
+                  <li><a href="#">Support</a></li>
+              </ul>
+          </div>
+          <div class="footer-section contact">
+              <h3>Contact Us</h3>
+              <p>Email: support@gmail.com</p>
+              <p>Phone: +91 742XXXXXX</p>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2023 Maple - India. All rights reserved. 
+      </div>
+  </footer>
+  
+  
+
+  </body>
+</html>
+
